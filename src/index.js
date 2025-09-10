@@ -1,7 +1,7 @@
 //logic goes here
-module.exports = inputInteger;
+module.exports = input_integer;
 
-function inputInteger() {
-  const name = `input`;
+function input_integer() {
+  const name = `input-integer`;
   return name;
 }

@@ -1,7 +1,5 @@
-const inputInteger = require("../src/index.js");
+const input_interger = require("../src/index.js");
 
-const x = inputInteger();
+const x = input_interger();
 
-document.body.innerHTML = "<h1>" + x + " </h1>";
-//The ${} method did not work
-//Something to do with JS versions but this method worked
+document.body.innerHTML = x;
