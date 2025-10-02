@@ -8,9 +8,11 @@ sheet.replaceSync(theme);
 function input_integer() {
   const el = document.createElement("div");
   const shadow = el.attachShadow({ mode: "closed" });
-  shadow.innerHTML = `
-    <input></input>
-`;
+
+  const input = document.createElement("input");
+  input.type = "number";
+  shadow.append(input);
+
   shadow.adoptedStyleSheets = [sheet];
   return el;
 }

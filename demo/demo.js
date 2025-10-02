@@ -1,5 +1,5 @@
-const input_interger = require("../src/index.js");
+const input_interger = require("..");
 
 const x = input_interger();
 
-document.body.innerHTML = x;
+document.body.append(x);
